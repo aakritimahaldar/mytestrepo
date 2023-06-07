@@ -1,5 +1,5 @@
 
-public class demo {
+public class Demo {
 	    
 	    String Enrollno,result; 
 	    
