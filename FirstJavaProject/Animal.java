@@ -1,0 +1,40 @@
+
+abstract class Animal {
+     String name;
+    int age;
+
+    public Animal(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    abstract void makeSound();
+}
+
+class Dog extends Animal {
+    public Dog(String name, int age) {
+        super(name, age);
+    }
+
+    public void makeSound() {
+        System.out.println("Woof! Woof!");
+    }
+}
+
+class Cat extends Animal {
+    public Cat(String name, int age) {
+        super(name, age);
+    }
+
+    public void makeSound() {
+        System.out.println("Meow! Meow!");
+    }
+}
