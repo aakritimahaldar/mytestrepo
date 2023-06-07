@@ -12,9 +12,9 @@ public static void main(String[] args) {
 
             System.out.println("-------------------------");
             System.out.println("Hello Welcome to the bank System");
-            System.out.println("1 = Show Blance");
-            System.out.println("2 = withdrowal Amount");
-            System.out.println("3 = Deposite amount");
+            System.out.println("1 = Show Balance");
+            System.out.println("2 = withdrawal Amount");
+            System.out.println("3 = Deposit amount");
             System.out.println("4 = For Special Persone Set Balance");
             System.out.println("5 = Exit");
             System.out.println("-------------------------");
@@ -57,7 +57,7 @@ public static void main(String[] args) {
                     int depo=sc.nextInt();
                     obj1.deposit(depo);
                     
-                    System.out.println("Congrates! You Deposite this amount : "+depo);
+                    System.out.println("Congrates! You Deposit this amount : "+depo);
                     System.out.println("Your Current balance is : "+obj1.total_A);
                 break;
     
@@ -76,7 +76,7 @@ public static void main(String[] args) {
                     System.out.println(obj1.total_A);
                 }
                 else{
-                    System.out.println("Please Enter valid password to access Blance");
+                    System.out.println("Please Enter valid password to access Balance");
                 }
     
                 
@@ -87,7 +87,7 @@ public static void main(String[] args) {
                 break;
     
                 default:
-                System.out.println("Please Enter Any of this Choise");
+                System.out.println("Please Enter Any of this Choice");
                     break;
             }
         }
